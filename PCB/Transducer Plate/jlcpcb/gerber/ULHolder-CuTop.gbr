@@ -1,0 +1,96 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.5*%
+%TF.CreationDate,2024-02-24T17:46:26+01:00*%
+%TF.ProjectId,ULHolder,554c486f-6c64-4657-922e-6b696361645f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L1,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.5) date 2024-02-24 17:46:26*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMOutline5P*
+0 Free polygon, 5 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 5*
+0 $1 to $10 corner X, Y*
+0 $11 Rotation angle, in degrees counterclockwise*
+0 create outline with 5 corners*
+4,1,5,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$1,$2,$11*%
+%AMOutline6P*
+0 Free polygon, 6 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 6*
+0 $1 to $12 corner X, Y*
+0 $13 Rotation angle, in degrees counterclockwise*
+0 create outline with 6 corners*
+4,1,6,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$1,$2,$13*%
+%AMOutline7P*
+0 Free polygon, 7 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 7*
+0 $1 to $14 corner X, Y*
+0 $15 Rotation angle, in degrees counterclockwise*
+0 create outline with 7 corners*
+4,1,7,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$1,$2,$15*%
+%AMOutline8P*
+0 Free polygon, 8 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 8*
+0 $1 to $16 corner X, Y*
+0 $17 Rotation angle, in degrees counterclockwise*
+0 create outline with 8 corners*
+4,1,8,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$1,$2,$17*%
+G04 Aperture macros list end*
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD10R,2.000000X2.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11Outline8P,-1.079500X0.447144X-0.447144X1.079500X0.447144X1.079500X1.079500X0.447144X1.079500X-0.447144X0.447144X-1.079500X-0.447144X-1.079500X-1.079500X-0.447144X0.000000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD12C,0.304800*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,TP1,TP,TP*%
+%TO.N,Net-(LSP2-PadMP)*%
+X161022604Y-106503600D03*
+%TD*%
+%TO.P,TP2,TP,TP*%
+%TO.N,Net-(LSP1-PadMP)*%
+X161022604Y-103503600D03*
+%TD*%
+D11*
+%TO.P,LSP2,MP,MP*%
+%TO.N,Net-(LSP2-PadMP)*%
+X141022604Y-110003600D03*
+%TD*%
+%TO.P,LSP1,MP,MP*%
+%TO.N,Net-(LSP1-PadMP)*%
+X141022604Y-100003600D03*
+%TD*%
+D12*
+%TO.N,Net-(LSP1-PadMP)*%
+X158253600Y-103503600D02*
+X155953600Y-101203600D01*
+X155953600Y-101203600D02*
+X142222604Y-101203600D01*
+X161022604Y-103503600D02*
+X158253600Y-103503600D01*
+X142222604Y-101203600D02*
+X141022604Y-100003600D01*
+%TO.N,Net-(LSP2-PadMP)*%
+X142222604Y-108803600D02*
+X141022604Y-110003600D01*
+X155946400Y-108803600D02*
+X142222604Y-108803600D01*
+X161022604Y-106503600D02*
+X158246400Y-106503600D01*
+X158246400Y-106503600D02*
+X155946400Y-108803600D01*
+%TD*%
+M02*
