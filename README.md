@@ -8,13 +8,14 @@
 
 Unlock the Power of Sound: Explore Acoustic Levitation with Ease and Precision.
 This project focuses on the development of an acoustic levitator, a fascinating technology capable of suspending small objects in mid-air using ultrasonic waves.
-It is
+It is:
 * **Low Cost:** Affordable and accessible to everyone -> approximately between 15-25 USD per unit
 * **Easy to Build:** Simple setup with readily available components
 * **Open Source:** Free to use, modify, and distribute
 * **Mobile:** Battery powered operation possible
 * **Adjustable:** Distance between transducer and reflector can be adjusted, thus stability can be tuned
-This repository provides all the necessary resources, including code, schematics, and documentation, to build and experiment with your own acoustic levitation system.
+
+This repository provides all the necessary resources, including code, schematics, and documentation, to build and experiment with your very own acoustic levitation system.
 
 ![Move](doc/images/ezgif-7-e92c7d3068.gif)
 
