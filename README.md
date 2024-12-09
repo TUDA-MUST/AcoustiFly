@@ -18,6 +18,7 @@ This project focuses on the development of an acoustic levitator, a fascinating 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
+- [Assemby](#assembly)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -46,6 +47,54 @@ In our repository, we provide detailed documentation, source code, and demonstra
 * **Open Source:** Free to use, modify, and distribute
 * **Standalone:** Battery powered operation possible
 * **Adjustable:** Distance between transducer and reflector can be adjusted, thus stability can be tuned
+
+## Assembly
+To assemble the Acoustifly you will need the following components:
+
+<img src="./doc/Assembly_Instruction_Images/IMG_20241030_111555.jpg" alt="Acoustifly Components" width="800">
+
+* **3D-printed:**
+
+  Base, Battery-Cover, Transducer-Holder, Vertical profile
+* **Electrical Components:**
+
+  UT-1640K-TT-2-R Transducer, Transducer PCB, Acoustifly PCB, EXP-T11-020 3.7V 720mAh Lithium Polymer Battery with JST-PH connector,
+* **Others:**
+
+  Ruthex M3s threaded inserts, M3 screws
+
+### Instructions:
+1. To install the threaded inserts you need to heat them up to 230°C. Best is to use a soldering tip to melt them into the 3D-printed parts.
+
+
+  <img src="./doc/Assembly_Instruction_Images/DSC08272.JPG" alt="Solderint Tip with threaded insert" width="500"> <img src="./doc/Assembly_Instruction_Images/DSC08278.JPG" alt="Base with threaded insert" width="500">
+  <img src="./doc/Assembly_Instruction_Images/DSC08290.JPG" alt="Transducer holder with threaded inserts" width="500"> <img src="./doc/Assembly_Instruction_Images/DSC08288.JPG" alt="Vertical Profile with threaded insert" width="500">
+  <img src="./doc/Assembly_Instruction_Images/DSC08318.JPG" alt="Battery Cover with threaded insert" width="500">
+
+2. Mount the Transducer PCB with the Tranducer on the Transducer holder:
+
+  <img src="./doc/Assembly_Instruction_Images/DSC08297.JPG" alt="Transducer holder with Transducer" width="500">
+
+3. Attach it to the vertical profile:
+
+  <img src="./doc/Assembly_Instruction_Images/DSC08299.JPG" alt="complete transducer holder" width="477"> <img src="./doc/Assembly_Instruction_Images/DSC08301.JPG" alt="complete transducer holder with screw" width="500">
+
+4. Screw the complete Tranducer Holder to the Base:
+
+  <img src="./doc/Assembly_Instruction_Images/DSC08302.JPG" alt="Transducer holder to base" width="500"> <img src="./doc/Assembly_Instruction_Images/DSC08303.JPG" alt="Transducer holder to base" width="500">
+
+5. Put the Transducer cord through the two holes on the Base and solder them to the PCB:
+
+  <img src="./doc/Assembly_Instruction_Images/DSC08306.JPG" alt="Transducer cords" width="500"> <img src="./doc/Assembly_Instruction_Images/DSC08308.JPG" alt="Soldered transducer" width="500">
+
+6. Install the Acoustifly PCB into the Base and connect the JST-Connector. After that you can also connect the Battery-cover:
+
+  <img src="./doc/Assembly_Instruction_Images/DSC08311.JPG" alt="Base with Acoustifly PCB" width="500"> <img src="./doc/Assembly_Instruction_Images/DSC08312.JPG" alt="Acoustifly open" width="500">
+
+7. Close the cover and enjoy your Acoustifly!:
+   
+  <img src="./doc/Assembly_Instruction_Images/DSC08314.JPG" alt="Transducer holder with Transducer" width="500"> <img src="./doc/Assembly_Instruction_Images/DSC08316.JPG" alt="Transducer holder with Transducer" width="500">
+
 
 ## Installation
 
@@ -81,8 +130,12 @@ _! The COM Port is likely to change after entering Boot-mode and may need to be 
 
 The **LED**s are setup in a current sink configuration, meaning a LOW signal will emit light while a HIGH signal will shut them off. Consider the command `GPIO.func_out_sel_cfg[PIN].inv_sel = 1` to reverse this. \
 The **HBRIDGE_*** inputs require either the typical PWM signal or the inverted one. The easiest way to achieve this is to set both to the same [LEDC Channel](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/ledc.html) and invert one output with the already mentioned command. \
-**CURRENTSENSE** can be used to measure the current consumption of both transducers. **TODO EXPLAIN SHUNT/AMPLIFIER SETUP**. \
-**BAT_STATE** can be used to read the battery voltage. However, it is reduced by a voltage divider. `Multiply` the measured voltage `by 11` to read the correct voltage level. \
+**CURRENTSENSE** can be used to measure the current consumption of the h-bridge, so both transducers simultaneously. 
+Current is measured via a 500mΩ high side shunt. 
+The voltage across which is amplified by a factor of 100 and then averaged with a low pass filter. 
+As a result, the average current consumption can be calculated by measuring the voltage on Pin "HBRIDGE_CURRENTSENSE" and dividing it by 50.\
+**BAT_STATE** can be used to read the battery voltage. However, it is reduced by a voltage divider. Multiply the measured voltage by 11 to read the correct voltage level. \
+_! As a small sidenote, the used microcontroller ESP32 does not have a very accurate, integrated ADC. However, finding the peak voltage is sufficient to determine the resonant frequency. !_
 
 
 [Explain how to use your acoustic levitator effectively. Provide step-by-step instructions, code examples, and demonstrations. Include any command-line or configuration options that users can utilize.]
