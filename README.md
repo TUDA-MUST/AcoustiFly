@@ -7,7 +7,14 @@
 <img align="right" src="doc/images/logo_acoustifly_for_GitHub.svg"  width="120">
 
 Unlock the Power of Sound: Explore Acoustic Levitation with Ease and Precision.
-This project focuses on the development of an acoustic levitator, a fascinating technology capable of suspending small objects in mid-air using ultrasonic waves. This repository provides all the necessary resources, including code, schematics, and documentation, to build and experiment with your own acoustic levitation system.
+This project focuses on the development of an acoustic levitator, a fascinating technology capable of suspending small objects in mid-air using ultrasonic waves.
+It is
+* **Low Cost:** Affordable and accessible to everyone -> approximately between 15-25 USD per unit
+* **Easy to Build:** Simple setup with readily available components
+* **Open Source:** Free to use, modify, and distribute
+* **Mobile:** Battery powered operation possible
+* **Adjustable:** Distance between transducer and reflector can be adjusted, thus stability can be tuned
+This repository provides all the necessary resources, including code, schematics, and documentation, to build and experiment with your own acoustic levitation system.
 
 ![Move](doc/images/ezgif-7-e92c7d3068.gif)
 
@@ -16,7 +23,6 @@ This project focuses on the development of an acoustic levitator, a fascinating 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
 - [Installation](#installation)
 - [Assemby](#assembly)
 - [Usage](#usage)
@@ -28,25 +34,23 @@ This project focuses on the development of an acoustic levitator, a fascinating 
 
 Our repository is dedicated to showcasing a method of acoustic levitation using a single transducer and a reflector. Acoustic levitation, also known as acoustic trapping, is a fascinating technique that allows objects to float in mid-air using sound waves.
 
-In our approach, we utilize a single transducer, which emits high-frequency sound waves, and a carefully designed reflector. The transducer generates an acoustic field that interacts with the reflector to create standing waves within a confined region. These standing waves produce regions of high and low pressure, forming what is known as an "acoustic pressure node".
+In our approach, we utilize a single transducer, which emits high-frequency sound waves, and a carefully designed reflector. 
+The transducer generates an acoustic field that interacts with the reflector to create standing waves within a confined region. 
+These standing waves produce regions of high and low pressure, forming what is known as an "acoustic pressure node".
 
 When an object is placed at a specific position within the acoustic pressure node, the forces exerted by the surrounding sound waves counteract the gravitational force, resulting in levitation. By precisely adjusting the distance of the transducer and the reflector, we can control the levitation height and stability of objects.
 
-This unique approach offers several advantages. Firstly, it simplifies the setup by using only a single transducer and a reflector, reducing complexity and cost. Secondly, it enables precise control over the levitation process, allowing for manipulation and positioning of objects with great accuracy. Lastly, it opens up possibilities for various applications, including material handling, microfluidics, and scientific experiments.
+This unique approach offers several advantages. 
+Firstly, it simplifies the setup by using only a single transducer and a reflector, reducing complexity and cost. 
+Secondly, it enables precise control over the levitation process, allowing for manipulation and positioning of objects with great accuracy. 
+Lastly, it opens up possibilities for various applications, including material handling, microfluidics, and scientific experiments.
 
-In our repository, we provide detailed documentation, source code, and demonstrations to help you understand and implement this acoustic levitation technique. Whether you are a researcher, teacher, hobbyist, or enthusiast, we invite you to explore our repository, contribute to its development, and unlock the potential of acoustic levitation with a single transducer and a reflector.
+In our repository, we provide detailed documentation, source code, and demonstrations to help you understand and implement this acoustic levitation technique.
+ Whether you are a researcher, teacher, hobbyist, or enthusiast, we invite you to explore our repository, contribute to its development, and unlock the potential of acoustic levitation with a single transducer and a reflector.
 
 **Join us on this exciting journey of harnessing the power of sound waves to defy gravity. Visit [our homepage](https://www.etit.tu-darmstadt.de/must/home_must/index.en.jsp) to delve into our research and learn more about our team.**
 
-## Features
 
-[Highlight the key features of your acoustic levitator. Enumerate the capabilities and performance metrics that make it stand out. You can use bullet points or a table to present this information.]
-
-* **Low Cost:** Affordable and accessible to everyone -> TODO: add cost estimate
-* **Easy to Build:** Simple setup with readily available components
-* **Open Source:** Free to use, modify, and distribute
-* **Standalone:** Battery powered operation possible
-* **Adjustable:** Distance between transducer and reflector can be adjusted, thus stability can be tuned
 
 ## Assembly
 To assemble the Acoustifly you will need the following components:
@@ -137,21 +141,11 @@ As a result, the average current consumption can be calculated by measuring the 
 **BAT_STATE** can be used to read the battery voltage. However, it is reduced by a voltage divider. Multiply the measured voltage by 11 to read the correct voltage level. \
 _! As a small sidenote, the used microcontroller ESP32 does not have a very accurate, integrated ADC. However, finding the peak voltage is sufficient to determine the resonant frequency. !_
 
-
-[Explain how to use your acoustic levitator effectively. Provide step-by-step instructions, code examples, and demonstrations. Include any command-line or configuration options that users can utilize.]
-
-[If applicable, include visual aids such as diagrams, screenshots, or videos to enhance the understanding of your acoustic levitator in action.]
-
-## Contributing
-
-We welcome contributions to this project! If you would like to contribute, please review the guidelines in the [CONTRIBUTING](CONTRIBUTING.md) file.
-
 ## License
 
 This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. Please see the [LICENSE](LICENSE) file for more details.
 
-## Related Projects
+## Reference
 
-[If you have any related projects or repositories that users might find interesting or useful, list them here along with brief descriptions or links.]
-
-Remember to update the sections accordingly with the relevant information for your acoustic levitator. A well-crafted README will enhance the accessibility and usability of your project, enabling users to understand, install, and utilize your acoustic levitator effectively.
+If you would like to reference our project, feel free to support us by citing our research paper:
+TODO ADD PAPER
