@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LevitaTUor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">zur Kommunikation mit einem AcoustiFly</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Version 1.1.1 by Thomas Schreck</string>
+
+    <string name="menu_home">Startbildschirm</string>
+    <string name="menu_gallery">serieller Monitor</string>
+    <string name="menu_slideshow">Schnelleingabe</string>
+    <string name="levitatuor">\t LevitaTUor</string>
+</resources>
