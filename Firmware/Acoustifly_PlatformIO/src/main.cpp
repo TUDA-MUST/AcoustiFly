@@ -306,16 +306,16 @@ scpi_error_t scpi_help(struct scpi_parser_context *context, struct scpi_token *c
   Serial.println(F("*RST   -  Restarts the device and deletes its cal. value."));
   Serial.println(F("HELP?  -  Returns this text."));
   Serial.println(F("DIAG   -  Returns Diagnostic Information."));
-  Serial.println(F(":Set:FREQuency XXXX   -  Sets the H-Bridge Frequency to this Value (XXXX). Unit is Hz. Allowed 30000 - 50000.")); 
-  Serial.println(F(":Set:CALvalue XXXX   -  Sets the CalValue to this Value (XXXX). Unit is Hz. Allowed 30000 - 50000. Warning: Not Recommended!"));
-  Serial.println(F(":Get:FREQuency  -   Returns the current Frequency."));
-  Serial.println(F(":Get:CURRent   -   Measures the current and returns it."));
-  Serial.println(F(":Do:PAuse XXXX  -  Pauses the Output for the given time XXXX in ms. Allowed 0 - 1000."));
-  Serial.println(F(":Do:moveDOWN   -   Tries to do a MoveDown with values calculated by the free fall equations."));
+  Serial.println(F(":SET:FREQUENCY XXXX   -  Sets the H-Bridge Frequency to this Value (XXXX). Unit is Hz. Allowed 30000 - 50000.")); 
+  Serial.println(F(":SET:CALVALUE XXXX   -  Sets the CalValue to this Value (XXXX). Unit is Hz. Allowed 30000 - 50000. Warning: Not Recommended!"));
+  Serial.println(F(":GET:FREQUENCY  -   Returns the current Frequency."));
+  Serial.println(F(":GET:CURRENT   -   Measures the current and returns it."));
+  Serial.println(F(":DO:PAUSE XXXX  -  Pauses the Output for the given time XXXX in ms. Allowed 0 - 1000."));
+  Serial.println(F(":DO:MOVEDOWN   -   Tries to do a MoveDown with values calculated by the free fall equations."));
   Serial.println(F("------------------"));
   Serial.println(F("ATTENTION: PLEASE WRITE EVERYTHING IN CAPS."));
-  Serial.println(F("Commands are in SCPI-Notation, meaning, you can write :DO:MOVEDOWN or :D:DOWN ."));
-  Serial.println(F("I.e. everything that is not caps is optional!"));
+  // Serial.println(F("Commands are in SCPI-Notation, meaning, you can write :DO:MOVEDOWN or :D:DOWN ."));
+  // Serial.println(F("I.e. everything that is not caps is optional!"));
   return SCPI_SUCCESS;
 }
 
