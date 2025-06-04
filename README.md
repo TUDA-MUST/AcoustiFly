@@ -148,6 +148,18 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June
 
 ## Reference
 
-If you would like to reference our project, feel free to support us by citing our research paper:
-
+If you would like to reference our project, feel free to support us by citing our research paper:\
 [AcoustiFly: An Open-Source, Low-Cost Acoustic Levitator for Hands-On STEM Education](https://doi.org/10.1109/EDUCON62633.2025.11016546)
+```
+@inproceedings{Suppelt2025,
+  title = {AcoustiFly: An Open-Source,  Low-Cost Acoustic Levitator for Hands-On STEM Education},
+  url = {http://dx.doi.org/10.1109/educon62633.2025.11016546},
+  DOI = {10.1109/educon62633.2025.11016546},
+  booktitle = {2025 IEEE Global Engineering Education Conference (EDUCON)},
+  publisher = {IEEE},
+  author = {Suppelt,  Mark and Suppelt,  Sven and D\"{o}rsam,  Jan Helge and Altmann,  Alexander A. and Kupnik,  Mario},
+  year = {2025},
+  month = apr,
+  pages = {1–5}
+}
+```
