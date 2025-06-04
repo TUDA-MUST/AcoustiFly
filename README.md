@@ -149,4 +149,5 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June
 ## Reference
 
 If you would like to reference our project, feel free to support us by citing our research paper:
-TODO ADD PAPER
+
+[AcoustiFly: An Open-Source, Low-Cost Acoustic Levitator for Hands-On STEM Education](https://doi.org/10.1109/EDUCON62633.2025.11016546)
