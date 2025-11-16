@@ -1,0 +1,71 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'AcoustiFly: Repository'
+message: >-
+  If you use this project, please cite the accompanying
+  paper listed below.
+type: software
+authors:
+  - given-names: Mark
+    family-names: Suppelt
+    affiliation: Technische Universität Darmstadt
+    orcid: 'https://orcid.org/0000-0003-4954-7229'
+  - given-names: Sven
+    family-names: Suppelt
+    affiliation: Technische Universität Darmstadt
+    orcid: 'https://orcid.org/0000-0002-2338-9333'
+  - orcid: 'https://orcid.org/0000-0001-9807-6641'
+    given-names: Jan Helge
+    family-names: Dörsam
+    affiliation: Technische Universität Darmstadt
+  - given-names: Alexander A.
+    family-names: Altmann
+    orcid: 'https://orcid.org/0000-0001-5299-3620'
+    affiliation: Technische Universität Darmstadt
+  - orcid: 'https://orcid.org/0000-0003-2287-4481'
+    given-names: Mario
+    family-names: Kupnik
+    affiliation: Technische Universität Darmstadt
+    email: mario.kupnik@tu-darmstadt.de
+identifiers:
+  - type: doi
+    value: 10.1109/educon62633.2025.11016546
+    description: >-
+      AcoustiFly: An Open-Source,  Low-Cost Acoustic
+      Levitator for Hands-On STEM Education
+url: >-
+  https://www.etit.tu-darmstadt.de/must/home_must/index.en.jsp
+abstract: >-
+  With a decline of student interest in STEM fields, it is
+  important to engage students in applied physics through
+  interactive, hands-on experiments. Acoustic levitation,
+  which allows small samples to levitate using a standing
+  acoustic wave, provides a unique opportunity to achieve
+  this. However, existing acoustic levitators are often
+  costly and complex, making them inaccessible for
+  widespread use in educational environments. For this
+  reason, we present AcoustiFly, a portable, open-source,
+  single-emitter, single-axis acoustic levitator with a unit
+  price below USD 15. AcoustiFly's 3D-printed, customizable
+  design ensures ease of use and adaptability for both
+  students and hobbyists alike, while serving as an
+  effective educational tool. AcoustiFly provides students
+  with the opportunity to observe and control levitating
+  samples, both statically and dynamically, by calculating
+  and applying relevant physical equations. This hands-on
+  approach helps students to bridge the gap between
+  theoretical concepts and real-world applications,
+  deepening their understanding of wave physics and
+  fostering greater interest. Currently, AcoustiFly is being
+  trialed in school activities, where students are
+  encouraged to pursue STEM studies by experimenting with
+  acoustic levitation. The project's open-source nature
+  encourages collaboration and innovation, allowing users to
+  adapt and modify the design.
+keywords:
+  - Acoustic Levitation
+  - Standing Waves
+  - EDUCON
+license: GPL-3.0
