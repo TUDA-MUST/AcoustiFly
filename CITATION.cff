@@ -2,7 +2,9 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: 'AcoustiFly: Repository'
+title: >-
+  AcoustiFly: An Open-Source, Low-Cost Acoustic Levitator
+  for Hands-On STEM Education
 message: >-
   If you use this project, please cite the accompanying
   paper listed below.
@@ -35,8 +37,6 @@ identifiers:
     description: >-
       AcoustiFly: An Open-Source,  Low-Cost Acoustic
       Levitator for Hands-On STEM Education
-url: >-
-  https://www.etit.tu-darmstadt.de/must/home_must/index.en.jsp
 abstract: >-
   With a decline of student interest in STEM fields, it is
   important to engage students in applied physics through
