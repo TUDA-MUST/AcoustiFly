@@ -18,18 +18,18 @@ authors:
     family-names: Suppelt
     affiliation: Technische Universität Darmstadt
     orcid: 'https://orcid.org/0000-0002-2338-9333'
-  - orcid: 'https://orcid.org/0000-0001-9807-6641'
-    given-names: Jan Helge
+  - given-names: Jan Helge
     family-names: Dörsam
     affiliation: Technische Universität Darmstadt
+	orcid: 'https://orcid.org/0000-0001-9807-6641'
   - given-names: Alexander A.
     family-names: Altmann
-    orcid: 'https://orcid.org/0000-0001-5299-3620'
     affiliation: Technische Universität Darmstadt
-  - orcid: 'https://orcid.org/0000-0003-2287-4481'
-    given-names: Mario
+	orcid: 'https://orcid.org/0000-0001-5299-3620'
+  - given-names: Mario
     family-names: Kupnik
     affiliation: Technische Universität Darmstadt
+	orcid: 'https://orcid.org/0000-0003-2287-4481'
     email: mario.kupnik@tu-darmstadt.de
 identifiers:
   - type: doi
@@ -37,6 +37,7 @@ identifiers:
     description: >-
       AcoustiFly: An Open-Source,  Low-Cost Acoustic
       Levitator for Hands-On STEM Education
+doi: 10.1109/EDUCON62633.2025.11016546
 abstract: >-
   With a decline of student interest in STEM fields, it is
   important to engage students in applied physics through
