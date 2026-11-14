@@ -1,4 +1,4 @@
-<img src="doc/images/tud_logo.gif" align="right" width="140"/>
+<img src="doc/images/TU_Darmstadt_Logo.svg" align="right" width="140"/>
 
 # AcoustiFly, a single transducer Acoustic Levitator
 [![Badge_must](https://img.shields.io/badge/Made_by-MUST-blue)](https://www.etit.tu-darmstadt.de/must/home_must/index.en.jsp)
